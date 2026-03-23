@@ -1,0 +1,1458 @@
+[
+    {
+        "file": "audio001.wav",
+        "label": "D",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio002.wav",
+        "label": "V",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio003.wav",
+        "label": "9",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio004.wav",
+        "label": "N",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio005.wav",
+        "label": "I",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio006.wav",
+        "label": "X",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio007.wav",
+        "label": "I",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio008.wav",
+        "label": "3",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio009.wav",
+        "label": "Z",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio010.wav",
+        "label": "J",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio011.wav",
+        "label": "E",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio012.wav",
+        "label": "H",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio013.wav",
+        "label": "F",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio014.wav",
+        "label": "7",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio015.wav",
+        "label": "O",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio016.wav",
+        "label": "0",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio017.wav",
+        "label": "P",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio018.wav",
+        "label": "C",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio019.wav",
+        "label": "G",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio020.wav",
+        "label": "K",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio021.wav",
+        "label": "4",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio022.wav",
+        "label": "Y",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio023.wav",
+        "label": "Q",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio024.wav",
+        "label": "W",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio025.wav",
+        "label": "M",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio026.wav",
+        "label": "6",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio027.wav",
+        "label": "A",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio028.wav",
+        "label": "S",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio029.wav",
+        "label": "U",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio030.wav",
+        "label": "R",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio031.wav",
+        "label": "S",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio032.wav",
+        "label": "L",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio033.wav",
+        "label": "8",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio034.wav",
+        "label": "B",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio035.wav",
+        "label": "2",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio036.wav",
+        "label": "T",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio037.wav",
+        "label": "5",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio038.wav",
+        "label": "B",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio039.wav",
+        "label": "S",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio040.wav",
+        "label": "8",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio041.wav",
+        "label": "M",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio042.wav",
+        "label": "2",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio043.wav",
+        "label": "6",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio044.wav",
+        "label": "L",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio045.wav",
+        "label": "A",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio046.wav",
+        "label": "5",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio047.wav",
+        "label": "R",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio048.wav",
+        "label": "T",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio049.wav",
+        "label": "U",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio050.wav",
+        "label": "Y",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio051.wav",
+        "label": "Y",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio052.wav",
+        "label": "P",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio053.wav",
+        "label": "0",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio054.wav",
+        "label": "O",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio055.wav",
+        "label": "7",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio056.wav",
+        "label": "K",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio057.wav",
+        "label": "F",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio058.wav",
+        "label": "C",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio059.wav",
+        "label": "G",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio060.wav",
+        "label": "Q",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio061.wav",
+        "label": "4",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio062.wav",
+        "label": "W",
+        "type": "",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio063.wav",
+        "label": "V",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio064.wav",
+        "label": "H",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio065.wav",
+        "label": "I",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio066.wav",
+        "label": "3",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio067.wav",
+        "label": "Z",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio068.wav",
+        "label": "J",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio069.wav",
+        "label": "D",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio070.wav",
+        "label": "N",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio071.wav",
+        "label": "X",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio072.wav",
+        "label": "1",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio073.wav",
+        "label": "E",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio074.wav",
+        "label": "9",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio075.wav",
+        "label": "0",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio076.wav",
+        "label": "0",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio077.wav",
+        "label": "0",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio078.wav",
+        "label": "Q",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio079.wav",
+        "label": "Q",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio080.wav",
+        "label": "Q",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio081.wav",
+        "label": "4",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio082.wav",
+        "label": "4",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio083.wav",
+        "label": "4",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio084.wav",
+        "label": "Y",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio085.wav",
+        "label": "Y",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio086.wav",
+        "label": "Y",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio087.wav",
+        "label": "G",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio088.wav",
+        "label": "G",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio089.wav",
+        "label": "G",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio090.wav",
+        "label": "O",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio091.wav",
+        "label": "O",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio092.wav",
+        "label": "O",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio093.wav",
+        "label": "C",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio094.wav",
+        "label": "C",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio095.wav",
+        "label": "C",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio096.wav",
+        "label": "W",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio097.wav",
+        "label": "W",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio098.wav",
+        "label": "W",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio099.wav",
+        "label": "7",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio100.wav",
+        "label": "7",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio101.wav",
+        "label": "7",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio102.wav",
+        "label": "F",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio103.wav",
+        "label": "F",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio104.wav",
+        "label": "F",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio105.wav",
+        "label": "K",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio106.wav",
+        "label": "K",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio107.wav",
+        "label": "K",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio108.wav",
+        "label": "P",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio109.wav",
+        "label": "P",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio110.wav",
+        "label": "P",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio111.wav",
+        "label": "V",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio112.wav",
+        "label": "V",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio113.wav",
+        "label": "V",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio114.wav",
+        "label": "H",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio115.wav",
+        "label": "H",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio116.wav",
+        "label": "H",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio117.wav",
+        "label": "N",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio118.wav",
+        "label": "N",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio119.wav",
+        "label": "N",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio120.wav",
+        "label": "9",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio121.wav",
+        "label": "9",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio122.wav",
+        "label": "9",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio123.wav",
+        "label": "I",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio124.wav",
+        "label": "I",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio125.wav",
+        "label": "I",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio126.wav",
+        "label": "J",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio127.wav",
+        "label": "J",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio128.wav",
+        "label": "J",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio129.wav",
+        "label": "3",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio130.wav",
+        "label": "3",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio131.wav",
+        "label": "3",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio132.wav",
+        "label": "X",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio133.wav",
+        "label": "X",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio134.wav",
+        "label": "X",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio135.wav",
+        "label": "D",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio136.wav",
+        "label": "D",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio137.wav",
+        "label": "D",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio138.wav",
+        "label": "1",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio139.wav",
+        "label": "1",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio140.wav",
+        "label": "1",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio141.wav",
+        "label": "E",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio142.wav",
+        "label": "E",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio143.wav",
+        "label": "E",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio144.wav",
+        "label": "Z",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio145.wav",
+        "label": "Z",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio146.wav",
+        "label": "Z",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio147.wav",
+        "label": "8",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio148.wav",
+        "label": "8",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio149.wav",
+        "label": "8",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio150.wav",
+        "label": "L",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio151.wav",
+        "label": "L",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio152.wav",
+        "label": "L",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio153.wav",
+        "label": "A",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio154.wav",
+        "label": "A",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio155.wav",
+        "label": "A",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio156.wav",
+        "label": "U",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio157.wav",
+        "label": "U",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio158.wav",
+        "label": "U",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio159.wav",
+        "label": "R",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio160.wav",
+        "label": "R",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio161.wav",
+        "label": "R",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio162.wav",
+        "label": "M",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio163.wav",
+        "label": "M",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio164.wav",
+        "label": "M",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio165.wav",
+        "label": "6",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio166.wav",
+        "label": "6",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio167.wav",
+        "label": "6",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio168.wav",
+        "label": "T",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio169.wav",
+        "label": "T",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio170.wav",
+        "label": "T",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio171.wav",
+        "label": "2",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio172.wav",
+        "label": "2",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio173.wav",
+        "label": "2",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio174.wav",
+        "label": "B",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio175.wav",
+        "label": "B",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio176.wav",
+        "label": "B",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio177.wav",
+        "label": "S",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio178.wav",
+        "label": "S",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio179.wav",
+        "label": "S",
+        "type": "Letter",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio180.wav",
+        "label": "5",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio181.wav",
+        "label": "5",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    },
+    {
+        "file": "audio182.wav",
+        "label": "5",
+        "type": "Digit",
+        "speaker": "client",
+        "session": 1,
+        "micro": "labri"
+    }
+]
