@@ -1454,5 +1454,21 @@
         "speaker": "client",
         "session": 1,
         "micro": "labri"
+    },
+    {
+        "file": "client_1_1774289577575.wav",
+        "label": "dfgfed",
+        "type": "Word",
+        "speaker": "client",
+        "micro": "labri",
+        "session": 1
+    },
+    {
+        "file": "client_1_1774289581841.wav",
+        "label": "f",
+        "type": "Letter",
+        "speaker": "client",
+        "micro": "labri",
+        "session": 1
     }
 ]

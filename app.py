@@ -10,13 +10,43 @@ from pydub.silence import split_on_silence
 
 # --- Configuration des chemins ---
 LABELS_FILE = "labels.json"
-OUTPUT_DIR = "labeled_data"
+OUTPUT_DIR = os.path.join("unlabeled_data", "corped")
 TEMP_DIR = "temp_chunks"
+STATE_FILE = "resume_log.json"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(TEMP_DIR, exist_ok=True)
 
 # --- Fonctions utilitaires ---
+def save_state():
+    if st.session_state.get("step") == "label":
+        data = {
+            "step": "label",
+            "chunks": st.session_state.get("chunks", []),
+            "current_chunk_idx": st.session_state.get("current_chunk_idx", 0),
+            "expected_labels": st.session_state.get("expected_labels", []),
+            "meta_session": st.session_state.get("meta_session", ""),
+            "meta_speaker": st.session_state.get("meta_speaker", ""),
+            "meta_micro": st.session_state.get("meta_micro", "")
+        }
+        with open(STATE_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False)
+
+def load_resume_state():
+    if os.path.exists(STATE_FILE):
+        try:
+            with open(STATE_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            return None
+    return None
+
+def clear_state():
+    if os.path.exists(STATE_FILE):
+        try:
+            os.remove(STATE_FILE)
+        except:
+            pass
 def load_labels():
     if not os.path.exists(LABELS_FILE):
         return []
@@ -60,9 +90,9 @@ def register_labeled_audio(chunk_path, raw_label):
     final_path = os.path.join(OUTPUT_DIR, final_filename)
     
     try:
-        shutil.copy(chunk_path, final_path)
+        shutil.move(chunk_path, final_path)
     except Exception as e:
-        st.error(f"Erreur lors de la copie du fichier : {e}")
+        st.error(f"Erreur lors du déplacement du fichier : {e}")
         return False
     
     new_entry = {
@@ -147,6 +177,15 @@ st.title("🎙️ Labelizatore - Annotation Audio")
 if st.session_state.step in ["config", "split"]:
     st.header("1. Paramétrage & Découpage")
     
+    saved_state = load_resume_state()
+    if saved_state:
+        st.info("🔄 **Tâche inachevée détectée** : Un étiquetage précédent n'a pas été terminé.")
+        if st.button("Reprendre là où je me suis arrêté", type="primary", use_container_width=True):
+            for k, v in saved_state.items():
+                st.session_state[k] = v
+            st.rerun()
+        st.divider()
+
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Métadonnées")
@@ -265,6 +304,7 @@ if st.session_state.step in ["config", "split"]:
                     st.session_state.meta_micro = final_micro
                     
                     st.session_state.step = "label"
+                    save_state()
                     st.rerun()
 
 
@@ -279,6 +319,7 @@ elif st.session_state.step == "label":
     
     if idx >= len(chunks):
         st.success("Toutes les parties de ce fichier ont été traitées ! 🎉")
+        clear_state()
         if st.button("Traiter un nouveau fichier"):
             st.session_state.step = "config"
             st.rerun()
@@ -316,6 +357,7 @@ elif st.session_state.step == "label":
             st.error(f"⚠️ Impossible de lire l'audio : {e}")
             if st.button("⏭️ Fichier corrompu - Passer au suivant", use_container_width=True):
                 st.session_state.current_chunk_idx += 1
+                save_state()
                 st.rerun()
         
         # --- OUTILS DE CORRECTION AUDIO ---
@@ -337,6 +379,7 @@ elif st.session_state.step == "label":
                             pass
                         
                         st.session_state.chunks.pop(idx + 1)
+                        save_state()
                         st.rerun()
                     except Exception as e:
                         st.error(f"Erreur fusion : {e}")
@@ -362,6 +405,7 @@ elif st.session_state.step == "label":
                             part2.export(part2_path, format="wav")
                             
                             st.session_state.chunks.insert(idx + 1, part2_path)
+                            save_state()
                             st.rerun()
                         else:
                             st.warning("Timecode trop grand.")
@@ -388,6 +432,7 @@ elif st.session_state.step == "label":
                 success = register_labeled_audio(current_chunk_path, user_label)
                 if success:
                     st.session_state.current_chunk_idx += 1
+                    save_state()
                     st.rerun()
                 
         if submit_reject:
@@ -396,6 +441,7 @@ elif st.session_state.step == "label":
             except:
                 pass
             st.session_state.current_chunk_idx += 1
+            save_state()
             st.rerun()
 
         # --- OPTION B : SELECTION RAPIDE DANS LA FILE ---
@@ -417,4 +463,5 @@ elif st.session_state.step == "label":
                     if success:
                         st.session_state.expected_labels.pop(i)
                         st.session_state.current_chunk_idx += 1
+                        save_state()
                         st.rerun()
